@@ -1,0 +1,35 @@
+objetivo:
+ 
+ Cria um API REstFull para controle de produtos
+
+PRIMEIRO O MODELO:
+    produtos: id, nome, quatidade, valor, observaçao.
+
+SEGUNDO O Repositorio de usuario:
+    obterTodos, obterPorId, adicionar, atualizarProduto, deletarProduto
+
+TERCEIRO O Serviço de produto:
+    obterTodos, obterPorId, adicionar, atualizarProduto, deletarProduto
+
+QUARTO O CONTROLLER:
+    obterTodos, obterPorId, adicionar, atualizarProduto, deletarProduto
+
+
+
+O campo produtoRepository em com.backendmonolitico.Servercies.ProdutoService necessitava de um bean chamado
+'entityManagerFactory' que não foi encontrado
+
+Considere definir um bean chamado 'entityManagerFactory' em sua configuração.
+
+Desconectado da VM de destino, endereço: '127.0.0.1:2239', transporte: 'socket'
+
+
+Erro ao criar bean com nome 'produtoRepository' definido em com.backendmonolitico.repository.ProdutoRepository
+ definido em @EnableJpaRepositories declarado em JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Não
+  é possível resolver a referência ao bean 'jpaSharedEM_entityManagerFactory' ao definir a propriedade do bean 'entityManager'
+Erro ao criar o bean com o nome 'jpaSharedEM_entityManagerFactory': Não é possível resolver a referência ao bean 'entityManagerFactory'
+ ao definir o argumento do construtor
+
+
+Erro ao criar o bean com o nome 'entityManagerFactory': O bean solicitado está atualmente em criação: existe uma referência
+ circular não resolvida?
