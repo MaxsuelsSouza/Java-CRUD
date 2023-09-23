@@ -40,7 +40,7 @@ resolvi fazer um crud com java utilizando o framework spring boot para melhoras 
 
 ```php
 # clonar este repositório
-$ git clone 
+$ git clone https://github.com/MaxsuelsSouza/Java-CRUD
 
 # acesse a pasta do projeto
 $ cd Java-CRUD
